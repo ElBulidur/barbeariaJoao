@@ -31,11 +31,20 @@ header {
     z-index: 2;
 
     & img {
-
+        height: 10px;
+        padding-left: 25px;
     }
 
     & nav {
-        
+        background-color: #8162FF;
+        border-radius: 4px;
+        margin-left: 80px;
+        padding: 2px;
+        color: #fff;
+
+        & i {
+            font-size: 10px;
+        }
     }
 }
 
@@ -48,10 +57,10 @@ header {
     color: #fff;
     padding: 10px 30px 30px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
-}
 
-.logo {
-    margin-bottom: 40px;
+    & img {
+        margin-bottom: 40px;
+    }
 }
 
 .input-box {
