@@ -58,7 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 295px;
+    width: 250px;
     height: 290px;
     background-color: rgba(0, 0, 0, .8);
     border: transparent;
@@ -70,9 +70,7 @@ body {
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
-    margin: 0 50% 25px 0;
+    margin-bottom: 25px;
 }
 
 .input-box {
@@ -134,9 +132,6 @@ body {
 }
 
 .register-link {
-    display: flex;
-    justify-content: center;
-    align-items: start;
     font-size: 12px;
     font-weight: 600;
     color: #fff;
@@ -155,24 +150,24 @@ body {
 
 /*---Computer---*/
 
-@media screen and (min-width: 1013.75px) {
+@media screen and (min-width: 811px) {
+   .container {
+        justify-content: center;
+   }
+   
     .container header {
-        background-color: transparent;
-
-        & img {
-            width: 0;
-            height: 0;
-        }
-
-        & nav {
-            width: 0;
-            height: 0;
-            color: transparent;
-            cursor: none;
-        }
-    }
+        display: none;
+   }
 
     .box {
-        width: 485px;
+        width: 605px;
+        height: 360px;
+        margin-bottom: 0;
+        /*padding: 10px 80px 60px;*/
+    }
+
+    .logo img {
+        width: 100px;
+        height: 40px;
     }
 }
