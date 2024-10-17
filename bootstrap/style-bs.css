@@ -10,3 +10,13 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 250px;
+	height: 290px;
+	border: transparent;
+	border-radius: 20px;
+}
