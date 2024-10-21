@@ -25,8 +25,9 @@ nav {
 	align-items: center;
 	width: 100vw;
 	height: 40px;
+	background-color: rgba(0, 0, 0, 0.8);
 
-	& img {
+	& .logo-form {
 		width: 70px;
 		height: 15px;
 		margin-right: 150px;
