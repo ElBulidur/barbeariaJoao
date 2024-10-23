@@ -27,13 +27,12 @@ nav {
 	height: 40px;
 	background-color: rgba(0, 0, 0, 0.8);
 
-	& .logo-form {
+	& .navbar-brand {
 		width: 70px;
 		height: 15px;
-		margin-right: 150px;
 	}
 
-	& a {
+	& .menu {
 		width: 26px;
 		height: 26px;
 		background-color: #8162ff;
@@ -60,8 +59,26 @@ form {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.logo {
+.img-fluid {
 	width: 120px;
 	height: 25px;
 	margin-bottom: 40px;
+}
+
+.btn-custom {
+	width: 90%;
+	height: 26px;
+	background-color: #8162ff;
+	border: none;
+	border-radius: 8px;
+	font-size: 10px;
+	color: #fff;
+	margin: 18px 0 20px;
+}
+
+.btn-custom:hover {
+	background-color: transparent;
+	border: 2px solid rgba(129, 98, 255, 0.5);
+	color: rgba(129, 98, 255, 0.5);
+	transition: 0.5s;
 }
