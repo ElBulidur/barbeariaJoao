@@ -65,6 +65,10 @@ body {
 	margin-bottom: 40px;
 }
 
+.input {
+	margin-bottom: 2px;
+}
+
 .btn-custom {
 	width: 90%;
 	height: 26px;
